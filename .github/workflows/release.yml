@@ -2,8 +2,11 @@ name: Release APK
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,11 +18,29 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Create GitHub Release
+      - name: Publish GitHub Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          VERSION="${GITHUB_REF_NAME}"
-          gh release create "$VERSION" Tenet-latest.apk \
-            --title "Tenet $VERSION" \
-            --notes "Tenet release $VERSION" || true
+          VERSION="v$(jq -r .version version.json)"
+          NAME=$(jq -r .name version.json)
+          NOTES=$(jq -r .notes version.json)
+          APK_FILE="Tenet-${VERSION}.apk"
+
+          echo "Publishing release $VERSION with asset $APK_FILE..."
+
+          if [ ! -f "$APK_FILE" ]; then
+            echo "Error: $APK_FILE not found!"
+            exit 1
+          fi
+
+          if gh release view "$VERSION" >/dev/null 2>&1; then
+            echo "Release $VERSION exists, updating..."
+            gh release upload "$VERSION" "$APK_FILE" --clobber
+            gh release edit "$VERSION" --title "$NAME" --notes "$NOTES"
+          else
+            echo "Creating new release $VERSION..."
+            gh release create "$VERSION" "$APK_FILE" \
+              --title "$NAME" \
+              --notes "$NOTES"
+          fi
