@@ -1,9 +1,9 @@
 {
-  "version": "1.0.1",
-  "name": "Tenet v1.0.1",
-  "notes": "• Full-width numeric input for copies in campus printer\n• Streamlined UI and auto-update release channel",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.1/Tenet-v1.0.1.apk",
+  "version": "1.0.2",
+  "name": "Tenet v1.0.2",
+  "notes": "Performance improvements and seamless in-app updates.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.2/Tenet-v1.0.2.apk",
   "apkSize": "13.3 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-10-26T20:04:38.455Z"
+  "publishedAt": "2026-10-26T20:36:31.104Z"
 }
