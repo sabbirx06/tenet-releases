@@ -1,9 +1,9 @@
 {
-  "version": "1.0.11",
-  "name": "Tenet v1.0.11",
-  "notes": "Cleaner mobile Deadlines: compact two-line task rows; course, status, and filter strips in order; blue New button with dark text; padded white selections across List, Focus, and Marks & WG. All shows every status group. Website layout is unchanged. Campus printing remains temporarily unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.11/Tenet-v1.0.11.apk",
+  "version": "1.0.12",
+  "name": "Tenet v1.0.12",
+  "notes": "The routine planner now uses the semester configured by admins without a separate semester selector. Existing routines retain their original semester. Campus printing remains temporarily unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.12/Tenet-v1.0.12.apk",
   "apkSize": "10.5 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-10-28T20:40:40Z"
+  "publishedAt": "2026-10-29T19:00:47Z"
 }
