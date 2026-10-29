@@ -1,9 +1,9 @@
 {
-  "version": "1.0.13",
-  "name": "Tenet v1.0.13",
-  "notes": "A redesigned update screen and a cleaner Today's Schedule header. Campus printing remains temporarily unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.13/Tenet-v1.0.13.apk",
+  "version": "1.0.14",
+  "name": "Tenet v1.0.14",
+  "notes": "Course materials folders now appear in a grid with category icons; individual files remain in a list. Campus printing remains temporarily unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.14/Tenet-v1.0.14.apk",
   "apkSize": "10.5 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-10-29T20:56:52Z"
+  "publishedAt": "2026-10-29T21:38:42Z"
 }
