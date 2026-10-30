@@ -1,9 +1,9 @@
 {
-  "version": "1.0.17",
-  "name": "Tenet v1.0.17",
-  "notes": "Grid and list controls now sit in the course materials header, with the contribute button at the bottom of the files panel. Campus printing remains temporarily unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.17/Tenet-v1.0.17.apk",
+  "version": "1.0.18",
+  "name": "Tenet v1.0.18",
+  "notes": "Improved mobile layouts for the admin panel and arranged My Courses summary cards in two columns. Campus printing remains temporarily unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.18/Tenet-v1.0.18.apk",
   "apkSize": "10.5 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-10-29T22:19:52Z"
+  "publishedAt": "2026-10-30T10:45:25Z"
 }
