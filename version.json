@@ -1,9 +1,9 @@
 {
-  "version": "1.0.19",
-  "name": "Tenet v1.0.19",
-  "notes": "Improves responsive layouts across the course catalog, admin forms and Degree Planner. Refines navigation and dialogs. Removes Grok and keeps manual review entry. Known issue: public profiles may be unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.19/Tenet-v1.0.19.apk",
+  "version": "1.0.20",
+  "name": "Tenet v1.0.20",
+  "notes": "Consistent switchers and toggles across Tenet, with softer selection colors on Deadlines, clearer keyboard focus, and improved layouts on narrow screens. Known issue: public profiles may be unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.20/Tenet-v1.0.20.apk",
   "apkSize": "8.9 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-11-22T01:31:15Z"
+  "publishedAt": "2026-11-22T02:14:00Z"
 }
