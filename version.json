@@ -1,9 +1,9 @@
 {
-  "version": "1.0.18",
-  "name": "Tenet v1.0.18",
-  "notes": "Improved mobile layouts for the admin panel and arranged My Courses summary cards in two columns. Campus printing remains temporarily unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.18/Tenet-v1.0.18.apk",
-  "apkSize": "10.5 MB",
+  "version": "1.0.19",
+  "name": "Tenet v1.0.19",
+  "notes": "Improves responsive layouts across the course catalog, admin forms and Degree Planner. Refines navigation and dialogs. Removes Grok and keeps manual review entry. Known issue: public profiles may be unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.19/Tenet-v1.0.19.apk",
+  "apkSize": "8.9 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-10-30T10:45:25Z"
+  "publishedAt": "2026-11-22T01:31:15Z"
 }
