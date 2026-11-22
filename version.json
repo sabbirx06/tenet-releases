@@ -1,9 +1,9 @@
 {
-  "version": "1.0.20",
-  "name": "Tenet v1.0.20",
-  "notes": "Consistent switchers and toggles across Tenet, with softer selection colors on Deadlines, clearer keyboard focus, and improved layouts on narrow screens. Known issue: public profiles may be unavailable.",
-  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.20/Tenet-v1.0.20.apk",
+  "version": "1.0.21",
+  "name": "Tenet v1.0.21",
+  "notes": "Restores the previous switcher and toggle styles across Tenet, including Deadlines. Known issue: public profiles may be unavailable.",
+  "apkUrl": "https://github.com/sabbirx06/tenet-releases/releases/download/v1.0.21/Tenet-v1.0.21.apk",
   "apkSize": "8.9 MB",
   "releaseUrl": "https://github.com/sabbirx06/tenet-releases/releases",
-  "publishedAt": "2026-11-22T02:14:00Z"
+  "publishedAt": "2026-11-22T02:26:51Z"
 }
